@@ -18,7 +18,7 @@ const toMinus = ()=>{
 }
 
 const addPercent = ()=>{
-   screen.value = screen.value**0.5
+   screen.value = screen.value/100
 }
 
 const toCalculate = ()=>{
