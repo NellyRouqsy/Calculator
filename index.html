@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clculator</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" href="./images/favicon.ico"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="show">
+            <input type="text" value=" " name="display" id="screen">
+        </div>
+        <div class="keys">
+            <button id="cee" onclick="toCancel (' ')">C</button>
+            <button id="del" onclick="toDelete (' ')">DEL</button>
+            <button id="+/-" onclick="toMinus (' ')">+/-</button>
+            <button id="%" onclick="addPercent (' ')">%</button>
+            <button id="seven" onclick="addNum('7')">7</button>
+            <button id="eight" onclick="addNum('8')">8</button>
+            <button id="nine" onclick="addNum('9')">9</button>
+            <button id="divide" onclick="addNum('/')">÷</button>
+            <button id="four" onclick="addNum('4')">4</button>
+            <button id="five" onclick="addNum('5')">5</button>
+            <button id="six" onclick="addNum('6')">6</button>
+            <button id="multiply" onclick="addNum('*')">×</button>
+            <button id="one" onclick="addNum('1')">1</button>
+            <button id="two" onclick="addNum('2')">2</button>
+            <button id="three" onclick="addNum('3')">3</button>
+            <button id="minus" onclick="addNum('-')">-</button>
+            <button id="zero" onclick="addNum('0')">0</button>
+            <button id="dot" onclick="addNum('.')">.</button>
+            <button id="plus" onclick="addNum('+')">+</button>
+            <button id="equals" onclick="toCalculate('=')">=</button>
+        </div>
+    </div>
+
+    <script src="screen.js"></script>
+</body>
+</html>
